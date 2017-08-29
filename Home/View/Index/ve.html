@@ -1,0 +1,15 @@
+<include file="Public/head" />
+    <body>
+        <!-- <h1>
+            {$ff?'卡三等奖':'00000'}
+            <br>
+            <if condition="$ff eq 5">
+                {$ff}
+                <else /> {$ff}000
+            </if>
+        </h1> -->
+        <foreach name="ff" item="v">
+            {$v.title}<br>
+        </foreach>
+    </body>
+</html>
